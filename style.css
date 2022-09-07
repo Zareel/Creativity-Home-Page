@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Fredoka+One&family=Gruppo&family=Indie+Flower&family=Josefin+Sans:wght@300;400;500;600;700&family=Lato:wght@300&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Poppins:wght@300;400;500;600;700&family=Quantico:wght@400;700&family=Raleway:wght@400;500;600;700;800&family=Red+Rose:wght@300;700&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Fredoka+One&family=Gruppo&family=Indie+Flower&family=Josefin+Sans:wght@300;400;500;600;700&family=Lato:wght@300&family=Londrina+Outline&family=Londrina+Solid:wght@300;400;900&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Poppins:wght@300;400;500;600;700&family=Quantico:wght@400;700&family=Raleway:wght@400;500;600;700;800&family=Red+Rose:wght@300;700&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+
+body{
+    background-color:#eee8e8;
+    height: 100vh;
+}
+
+.banner-img{
+    width: 35%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+nav{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    margin: 10px 70px 20px;
+}
+.logo{
+    flex: 2;
+    width: 100px;
+}
+hr{
+    border-top: 2px solid;
+    width: 24%;
+}
+li .nav-item{
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    display: inline-block;
+    padding: 30px;
+    font-family: "poppins";
+    cursor: pointer;
+}
+.nav-items .item{
+    color:#888;
+}
+.fa-bars{
+    display: none;
+} 
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: -13px;
+}
+.crea{
+    font-family:"Merriweather";
+    font-size: 120px;
+    font-weight: 900;
+    margin-right: 150px;
+    -webkit-text-stroke: 1px #888;
+    -webkit-text-fill-color: transparent;
+}
+.tivity{
+    font-family: "Merriweather";
+    font-size: 110px;
+    margin-top: -40px;
+    margin-left: 150px;
+    -webkit-text-stroke: 1px #343333;
+    -webkit-text-fill-color: #343333;
+}
+.isOur{
+    font-family: "Merriweather";
+    font-size: 30PX;
+    color: #888;
+    font-weight: 300;
+    margin-top: 160px;
+    margin-right: 70px; 
+}
+.row1-end{
+    margin-right: 100px;
+    line-height: 65px;
+    cursor: pointer;
+}
+.list-items{
+    list-style-type: none;
+}
+.btn{
+    display: block;
+}
+button{
+    float: right;
+    margin-right: 100px;
+    padding: 10px;
+    width: 300px;
+    height: 58px;
+    background-color: #343333;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;   
+}
+button:hover{
+    border: 2px solid #343333;
+    background-color:transparent;
+    color: #343333;
+}
+.botton-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: 100px;
+}
+.vertical-line{
+    border-left: 2px solid #343333;
+    height: 280px;
+    position:absolute;
+    left: 600px;
+}
+.dots{
+    margin-top: -45px;
+   
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin-top: 43px;
+    margin-left: -62px;
+    background-color:#888;
+    border-radius: 50%;
+    position: relative;
+}
+.dot-black{
+    background-color: #343333;
+}
+.dot-gray{
+    background-color:#888;
+}
+
+.services{
+    font-family: "Poppins";
+    font-size: 18px;
+    color:#888;
+    line-height: 55px;
+    position: relative;
+    left: -70px;
+    top: -20px;   
+}
+.active-item{
+    color: #343333;
+}
+.list-item{
+    list-style-type: none;
+}
+.arrow{
+    color:#343333;
+    font-size: 50px;
+    font-weight: 100;
+    margin-right: 100px;
+    margin-top: 100px; 
+}
+.bottom-right p{
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #343333;
+}
+
+@media screen and (max-width:1480px){
+    .crea{
+        font-size: 80px;
+    }
+    .tivity{
+        font-size: 60px;
+    }
+    .botton-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 400px;
+    }
+    .dots{
+        display: none;
+    }
+    .bottom-right img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:1367px) {
+   hr{
+    width: 20%;
+   } 
+   .banner-img{
+    background-size: cover;
+    height: 100%vh ;
+   }
+   .row1{
+    gap: 20px;
+   }
+   
+}
+@media screen and (max-width:1246px){
+    hr{
+        width: 15%;
+    }
+}
+@media screen and (max-width:1197px){
+    .row1{
+        gap: 5px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+       }
+    .crea{
+        font-size: 50px;
+    }
+    .tivity{
+        font-size: 40px;
+    }
+    .isOur{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1120px){
+    hr{
+        display: none;
+    }
+}
+@media screen and (max-width:909px){
+    .crea{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:890px){
+    .crea{
+        text-align: center;
+        font-size: 30px;
+    }
+    .tivity{
+        font-size: 30px;
+    }
+    .fa-bars{
+        display: block;
+        visibility: visible;
+    }
+    .nav-items{
+        display: none;
+    }
+    .crea{
+        
+        font-size: 30px;
+        font-weight: 900;
+        margin-right: -50px;
+     
+    }
+    .tivity{
+       
+        font-size: 30px;
+        margin-top: 5px;
+        margin-right: -50px;
+        
+    }
+}
+@media screen and (max-width:713px){
+    button{
+        text-align: center;
+        padding: 10px;
+        width: 200px;   
+    }
+    .botton-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 20%;
+    }
+}
+

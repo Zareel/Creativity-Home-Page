@@ -6,4 +6,6 @@
 
 ## Here is my project #14, Creativity Home Page- Website. This assignment is a part of the BootCamp
 
-![image](<./images/Screenshot%20(296).png>)
+[live](https://z-creativity-home-page.netlify.app)
+
+![Screenshot (296)](https://user-images.githubusercontent.com/110910838/209383736-2ace7931-2995-49fe-a3e0-18fed1739d83.png)
